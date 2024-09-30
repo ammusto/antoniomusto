@@ -3,8 +3,8 @@ import React from 'react';
 const DHProjects = () => {
     return (
         <div>
-            <h2>Digital Humanities Projects</h2>
-            <ul style={{ listStyleType: 'none', padding: 0 }}>
+            <h3>Digital Humanities Projects</h3>
+            <ul>
                 <li>
                     <strong><a href='https://nusus-static.pages.dev/'>nuṣūṣ</a></strong>
                     <p><p>Nuṣūṣ is a corpus of digitized Arabic texts designed to fill gaps in extant digital corpora. Originally a collection of early Sufi and Sufi-adjacent texts, nuṣūṣ has since expanded to include early works on <em>kalām</em>, <em>falsafa</em>, and Christian theology. Through this website, users can: browse text metadata, including author biographies; read these works online; and, most importantly, search the contents of texts in the corpus. The digitized versions of these texts are available to download here on nuṣūṣ for individuals to use for computational textual analysis or other interests. You can also find all the data for nuṣūṣ on the project's <a href="https://github.com/ammusto/nusus-static">github</a>.</p></p>
@@ -31,8 +31,8 @@ const DHProjects = () => {
                         including
                         the
                         toolset created by NYU Abu Dhabi's
-                        <a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab.html">
-                            CAMeL Lab</a>. Without technical training, the contributions of these and
+                        <a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab.html">CAMeL Lab</a>. 
+                        Without technical training, the contributions of these and
                         other projects remain out of reach to the lay researcher. The mutūn platform
                         looks to change that by enabling any user to: easily access and read these digitized texts;
                         organize

@@ -4,6 +4,7 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   margin: 0;
   width: 100%;
+  overflow-y: scroll;
 }
 
 .profile-image {
@@ -22,7 +23,7 @@ a:hover {
 
 nav {
   margin-top: 25px;
-  text-align: center; /* Center the nav inside its parent */
+  text-align: center; 
 }
 
 nav h1 {
@@ -30,11 +31,11 @@ nav h1 {
 }
 
 nav ul {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  display: flex; /* Make the list horizontal */
-  justify-content: center; /* Center the items horizontally */
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
 }
 
 ul {
@@ -43,47 +44,105 @@ ul {
 
 ul li {
   margin-bottom: 1rem;
+  
 }
 
 nav ul li {
-  display: block; /* Make each item block-level */
-  margin: 0 25px; /* 50px space between each item (25px on each side) */
+  display: block;
 }
 
 nav ul li a {
-  text-decoration: none; /* Remove underline from links */
-  color: black; /* Set link color */
-  padding: 10px; /* Add padding around the text */
+  padding: 10px; 
 }
 
 .container {
   margin: auto;
-  width:800px;
-  margin-top:50px;
+  width: 1200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+.main {
+  width: 100%;
+
+}
+
+@media (max-width: 1240px) {
+  .container {
+    width: 1000px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    width: 768px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .home-container {
-  display: flex;              /* Make the container a flexbox */
-  justify-content: space-between;  /* Distribute space between the two divs */
-  align-items: stretch;       /* Make both divs the same height */
-}
-
-.home-container > div {
-  padding: 20px;              /* Optional: Add some padding to the inner divs */
+  display: flex;              
+  justify-content: space-between;  
+  align-items: stretch;
+  gap: 5%;       
 }
 
 .home-container > div:first-child {
-  flex: 0 0 40%;              /* First div takes 40% of the width */
-  display: flex;              /* Make this div a flexbox */
-  justify-content: center;    /* Horizontally center the content within this div */
-  align-items: center;        /* Vertically center the content (image) */
+  flex: 0 0 40%;             
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
 }
 
 .home-container > div:last-child {
-  flex: 0 0 60%;              /* Second div takes 60% of the width */
+  flex: 0 0 55%;              
+}
+
+.home-container > div:last-child > p:first-child {
+  margin-top:0px !important;
 }
 
 .profile-image {
-  max-width: 100%;            /* Ensure the image does not overflow its container */
-  height: auto;               /* Maintain aspect ratio of the image */
+  max-width: 100%;            
+  height: auto;               
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; /* Stack the divs vertically */
+    gap: 20px; /* Optional: Set a gap between the stacked divs */
+  }
+
+  .home-container > div:first-child,
+  .home-container > div:last-child {
+    flex: 0 0 auto; /* Allow divs to adjust their height */
+    width: 100%; /* Ensure each div takes full width when stacked */
+  }
+}
+
+footer {
+  margin-bottom:25px;
+}
+
+ul {
+  padding-left:20px;
 }
