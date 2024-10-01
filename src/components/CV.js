@@ -22,7 +22,7 @@ const CV = () => {
           style={{ border: '1px solid #ccc' }}
         >
           <p>It appears you don't have a PDF plugin for this browser. You can 
-          <a href={pdfUrl} download="AMusto_CV.pdf" style={{ color: 'blue', textDecoration: 'underline' }}> download the PDF </a> 
+          <a href={pdfUrl} download="AMusto_CV.pdf"> download the PDF </a> 
           to view it.</p>
         </object>
       )}
