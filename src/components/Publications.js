@@ -46,15 +46,23 @@ const Publications = () => {
             <ul>
                 <li>The <em>Karāmāt Abī ʿAlī al-Qūmsānī</em>: Spiritual Legacy, the Miraculous, and the Everyday Part I and Part II</li>
                 <li><strong>Abstract:</strong> This two-part article looks at the  Ṣūfī Shaykh Abū ʿAlī al-Qūmsānī and the Sufi community of Hamadhān to which he belonged.
-                The first article first recreates this Hamadhānī community, centering three of its most well-known Ṣūfī shaykhs from the fourth/tenth and fifth/eleventh centuries,
-                Abū ʿAlī al-Qūmsānī, Jaʿfar al-Abharī, and Ṭāhir al-Jaṣṣāṣ. Attention is then turned to the family of Abū ʿAlī, especially his grandson Ibn Zayrak and his works
-                <em>Karāmāt Abī ʿAlī al-Qūmsānī</em>, which contains forty-seven anecdotes about Abū ʿAlī and his life, including an Arabic edition of the text. The second article explores 
-                the text in more detail, engaging not only with the content of the text, but raising historiographical questions about the genre of hagiography. This article treats a 
-                variety of topics in everyday life, including familial relations, the place of dreams, and the social role of the Sufi shaykh. Finally, this second article includes a 
-                translation of the treatise.</li>
-
+                    The first article first recreates this Hamadhānī community, centering three of its most well-known Ṣūfī shaykhs from the fourth/tenth and fifth/eleventh centuries,
+                    Abū ʿAlī al-Qūmsānī, Jaʿfar al-Abharī, and Ṭāhir al-Jaṣṣāṣ. Attention is then turned to the family of Abū ʿAlī, especially his grandson Ibn Zayrak and his works
+                    <em>Karāmāt Abī ʿAlī al-Qūmsānī</em>, which contains forty-seven anecdotes about Abū ʿAlī and his life, including an Arabic edition of the text. The second article explores
+                    the text in more detail, engaging not only with the content of the text, but raising historiographical questions about the genre of hagiography. This article treats a
+                    variety of topics in everyday life, including familial relations, the place of dreams, and the social role of the Sufi shaykh. Finally, this second article includes a
+                    translation of the treatise.</li>
             </ul>
-
+            <ul>
+                <li>Between Legend and Text: Commentaries on the sayings of Bābā Ṭāhir Jaṣṣāṣ al-Hamadhānī</li>
+                <li><strong>Abstract:</strong> There is a significant tradition of commentaries on sayings attributed to the poet Bābā Ṭāhir al-ʿUryān, whose poetry had captivated Orientalist scholars since the nineteenth century. Studies of Bābā Ṭāhir have continued, especially among Persian scholars, including three monograph-length studies in the second half of the twentieth centuries. The semi-legendary status of Bābā Ṭāhir has rendered any historical study of his life difficult due to a paucity of biographical material or details. More recently, Nasrollah Pourjavady has argued that Bābā Ṭāhir al-ʿUryān is, in fact, Ṭāhir b. Muḥammad al-Jaṣṣās al-Hamadhānī (d. 418), a famous shaykh of the Jibāl region. This claim, however, has renewed scholarly debate about the identity of Bābā Ṭāhir, engendering critical responses and additional scholarship on this issue. This article is a look at the historical Ṭāhir al-Jaṣṣās, including his place within the Sufi communities of the Jibāl, the textual legacy of the commentaries attributed to Bābā Ṭāhir al-Hamadhānī, and the Arabic text of an unpublished collection of these sayings from MS Arabe 1903 held in the Bibliotheque National de France.</li>
+            </ul>
+            <ul>
+                <li>Edition of Abū Manṣūr al-Iṣfahānī's <em>Sawāhid al-taṣawwuf</em></li>
+                <li><strong>Description:</strong> I am currently in the process of editing the unpublished and previously thought lost <em>Sawāhid al-taṣawwuf</em> by Abū Manṣūr al-Iṣfahānī (d. 418).
+                    I have a forthcoming article about the text, but it is a multigeneric work, part Sufi treatise, part biographical dictionary, and part autobiographical. The text provides new
+                    and exciting insights into the formative period of Sufism.</li>
+            </ul>
         </div >
     );
 };
