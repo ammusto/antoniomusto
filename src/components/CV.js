@@ -1,16 +1,18 @@
 import React from 'react';
 
 const CV = () => {
+  const pdfUrl = `${process.env.PUBLIC_URL}/cv.pdf`;
+
   return (
     <div>
       <h3>Curriculum Vitae</h3>
       <iframe 
-        src="/cv.pdf" 
+        src={pdfUrl} 
         title="CV"
         style={{ width: '100%', height: '800px' }}
       />
       <p>
-        <a href="/cv.pdf" download="My_CV.pdf">Download CV</a>
+        <a href={pdfUrl} download="My_CV.pdf">Download CV</a>
       </p>
     </div>
   );
