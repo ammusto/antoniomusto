@@ -11,8 +11,8 @@ const CV = () => {
   }, []);
 
   return (
-    <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px' }}>
-      <h3 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '20px' }}>Curriculum Vitae</h3>
+    <div>
+      <h3>Curriculum Vitae</h3>
       {pdfUrl && (
         <object
           data={pdfUrl}
@@ -26,7 +26,7 @@ const CV = () => {
           to view it.</p>
         </object>
       )}
-      <p style={{ marginTop: '20px' }}>
+      <p>
         <a href={pdfUrl} download="AMusto_CV.pdf">Download CV</a>
       </p>
     </div>
