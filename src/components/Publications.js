@@ -54,7 +54,7 @@ const Publications = () => {
                     translation of the treatise.</li>
             </ul>
             <ul>
-                <li>Between Legend and Text: Commentaries on the sayings of Bābā Ṭāhir Jaṣṣāṣ al-Hamadhānī</li>
+                <li>Between Legend and Text: Commentaries on the sayings of Bābā Ṭāhir al-Jaṣṣāṣ al-Hamadhānī</li>
                 <li><strong>Abstract:</strong> There is a significant tradition of commentaries on sayings attributed to the poet Bābā Ṭāhir al-ʿUryān, whose poetry had captivated Orientalist scholars since the nineteenth century. Studies of Bābā Ṭāhir have continued, especially among Persian scholars, including three monograph-length studies in the second half of the twentieth centuries. The semi-legendary status of Bābā Ṭāhir has rendered any historical study of his life difficult due to a paucity of biographical material or details. More recently, Nasrollah Pourjavady has argued that Bābā Ṭāhir al-ʿUryān is, in fact, Ṭāhir b. Muḥammad al-Jaṣṣās al-Hamadhānī (d. 418), a famous shaykh of the Jibāl region. This claim, however, has renewed scholarly debate about the identity of Bābā Ṭāhir, engendering critical responses and additional scholarship on this issue. This article is a look at the historical Ṭāhir al-Jaṣṣās, including his place within the Sufi communities of the Jibāl, the textual legacy of the commentaries attributed to Bābā Ṭāhir al-Hamadhānī, and the Arabic text of an unpublished collection of these sayings from MS Arabe 1903 held in the Bibliotheque National de France.</li>
             </ul>
             <ul>
