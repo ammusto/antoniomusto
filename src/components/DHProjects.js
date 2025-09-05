@@ -6,6 +6,10 @@ const DHProjects = () => {
             <h3>Digital Humanities Projects</h3>
             <ul>
                 <li>
+                    <strong><a href='https://www.tabassur.com/'>tabaṣṣur</a></strong>
+                    <p>Tabaṣṣur is a simple web application to view short manuscripts or manuscript excerpts that I've transcribed. All texts here are unpublished unless otherwise noted. It is my hope that this will serve not only as a way to bring attention to unpublished works, but also aid those looking to study Arabic paleography.</p>
+                </li>
+                <li>
                     <strong><a href='https://tabadil.pages.dev/'>tabādīl</a></strong>
                     <p>Tabādīl is a search tool that creates and searches all possible name permutations from a given kunya + nasab + nisba combination. It utilizes the meta-corpus I put together for my mutūn app (below), which contains over 1.3B tokens from 10,000+ unique texts. This app is designed to assist in prosopography specifically or just general biographical research.</p>
                 </li>
@@ -22,7 +26,7 @@ const DHProjects = () => {
                     <p>This is a metadata browser for the texts in al-maktaba al-shamela that were scraped of al-maktaba al-shamila on 7/2/2024, you can brose the texts on the <a href="http://www.shamela.ws">shamela website</a> as well as through their application. I am in the process of cleaning the scraped texts and uploading them to be available to all, currently you can download individual texts, but soon the entire corpus will be available on GitHub. While many of these texts are already scraped and available via the <a href="https://openiti.org/">Open Islamicate Texts Initiative</a> and <a href="https://kitab-project.org/">KITAB</a> project <a href="https://zenodo.org/records/10007820">meta-corpus</a>, a significant portion is not. Furthermore, the texts in the OITI/KITAB corpus are encoded in their custom mARkdown schema. While this has its benefits for token and phrase-level tagging, it is somewhat cumbersome and there are many edge cases that make cleaning the texts difficult. Additionally, the metadata for the OITI/KITAB files are not standardized, with varying field names, missing items, etc., so I've tried to standardize the metadata and the text by putting them in .json format.</p>
                 </li>
                 <li>
-                    <strong><a href='https://www.mutun.io/'>mutūn</a></strong>
+                    <strong><a href='https://mutun.pages.dev/'>mutūn</a></strong>
                     <p>The mutūn project looks to empower non-technical users by
                         facilitating access both to thousands of digitized Arabic texts and
                         to natural language processing tools specifically designed for Arabic. Building off of the

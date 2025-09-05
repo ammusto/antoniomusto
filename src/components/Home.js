@@ -13,7 +13,7 @@ const Home = () => {
                     /></div>
                 <div>
                     <p>
-                        I'm a postdoctoral lecturer in the Core Curriculum at New York University. I obtained my PhD from the
+                        I'm an assistant professor of early Islam at the University of Minnesota, Twin Cities, jointly appointed in the Religious Studies program and the Asian and Middle Eastern Studies department. I obtained my PhD from the
                         Middle Eastern and Islamic Studies program at NYU in 2024. My dissertation was titled "Between Bukhārā and Baghdād: New Histories for Sufism's Formative Period."
                         My primary research interests are the dimensions of medieval Sufism, from the textual and conceptual to the historical, social, and political.
                     </p>
