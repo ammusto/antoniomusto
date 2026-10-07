@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Digital humanities projects by Antonio Musto for searching and reading pre-modern Arabic texts.">
+  <title>Digital Humanities · Antonio Musto</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Antonio Musto</h1>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/cv.html">CV</a></li>
+        <li><a href="/publications.html">Projects and Pubs</a></li>
+        <li><a href="/dh-projects.html">Digital Humanities</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="main">
+      <h3>Digital Humanities Projects</h3>
+      <ul>
+        <li>
+          <strong><a href="https://kashshaf.com/">al-Kashshāf</a> (upcoming)</strong>
+          <p>Al-Kashshāf is an <a href="https://github.com/ammusto/kashshaf" target="_blank" rel="noopener noreferrer">open-source</a> web and desktop application for advanced search of pre-modern Arabic texts. It searches across a meta-corpus of 7,199 Arabic texts (up to 1348 AH/1930 CE), comprising over 5.7 million pages and nearly 1 billion tokens, drawn from al-Maktaba al-Shamela, <a href="https://openiti.org/">OpenITI</a>, <a href="https://kitab-project.org/">KITAB</a>, and nuṣūṣ. Its search capabilities include morphological analysis, root, lemma, and surface queries, Boolean and proximity search, and specialized name search. The primary goal of the project is to increase access to digitized texts that are not represented in the major searchable corpora or are not available to the non-technical user. Initial funding, under the project's earlier name mutūn, was provided by NYU's Faculty DH Seed Grant program. Al-Kashshāf also incorporates the name search functionality previously found on <a href="https://tabadil.com/">tabādīl</a>. As of fall 2026, al-Kashshāf is undergoing private testing, with a planned release in late winter 2026 or early 2027.</p>
+        </li>
+        <li>
+          <strong><a href="https://www.tabassur.com/">tabaṣṣur</a></strong>
+          <p>Tabaṣṣur is a simple web application for viewing short manuscripts or manuscript excerpts that I've transcribed. All texts here are unpublished unless otherwise noted. I hope it will serve not only to bring attention to unpublished works, but also as an aid to those studying Arabic paleography.</p>
+        </li>
+        <li>
+          <strong><a href="https://tabadil.com/">tabādīl</a></strong>
+          <p>Tabādīl is a search tool that generates and searches all possible permutations of a name from a given <em>kunya</em> + <em>nasab</em> + <em>nisba</em> combination. It shares its backend with al-Kashshāf (above) and searches the same meta-corpus of 7,199 Arabic texts and nearly 1 billion tokens. The app is designed to assist with prosopography and general biographical research. NB: the functionality of tabādīl has been incorporated into al-Kashshāf.</p>
+        </li>
+        <li>
+          <strong><a href="https://nusus-static.pages.dev/">nuṣūṣ</a></strong>
+          <p>Nuṣūṣ is a corpus of digitized Arabic texts designed to fill gaps in existing digital corpora. Originally a collection of early Sufi and Sufi-adjacent texts, nuṣūṣ has since expanded to include early works on <em>kalām</em>, <em>falsafa</em>, and Christian theology. Through the website, users can browse text metadata, including author biographies; read the works online; and, most importantly, search the contents of the corpus. The digitized texts can also be downloaded from nuṣūṣ for computational textual analysis or other purposes. All of the project's data is available on <a href="https://github.com/ammusto/nusus-static">GitHub</a>.</p>
+        </li>
+        <li>
+          <strong><a href="https://www.ishtiqaq.com/">ishtiqāq</a></strong>
+          <p>Many searchable Arabic dictionaries are already available online, and providing another is <em>not</em> the focus of this tool, even though ishtiqāq shares much of that functionality. At its core, ishtiqāq is an aid for reading manuscripts when you come across a <em>rasm</em> (consonantal skeleton) that is unclear or whose letters are ambiguous. With ishtiqāq, you can mark the unclear letter(s) and, with a single search, retrieve results for every possible spelling of the word. To learn more about its functionality, see the How To page.</p>
+          <p>This tool was inspired by <a href="https://www.lexiqamus.com/en">LexiQamus</a> and uses indices from <a href="https://www.ejtaal.net">ejtaal.net</a>, a <a href="https://github.com/alsaydi/root-ext-service/blob/main/data/word-root-table.txt">flat-file database</a> of Arabic words and their roots compiled by <a href="https://github.com/alsaydi">Abdalaziz Alsaydi</a>, and a noun list made by <a href="https://github.com/linuxscout/arramooz/">Taha Zerrouki</a>. English dictionary data was scraped from an OCR'd version of Hans Wehr and from the <a href="https://www.livingarabic.com/">Living Arabic Project</a>, and the classical lexica were scraped from <a href="https://www.shamela.ws">al-Maktaba al-Shamela</a> and <a href="https://www.lesanarab.com/">lesanarab.com</a>.</p>
+        </li>
+        <li>
+          <strong><a href="https://sham-scrap.pages.dev/">sham-scrap</a></strong>
+          <p>Sham-scrap is a metadata browser for the texts of al-Maktaba al-Shamela, scraped on July 2, 2024. The texts themselves can also be browsed on the <a href="https://www.shamela.ws">Shamela website</a> and through its application. I am in the process of cleaning the scraped texts and making them available to all. Individual texts can currently be downloaded, and the entire corpus will soon be available on GitHub. While many of these texts have already been scraped and made available through the <a href="https://openiti.org/">Open Islamicate Texts Initiative</a> and the <a href="https://kitab-project.org/">KITAB</a> project's <a href="https://zenodo.org/records/10007820">meta-corpus</a>, a significant portion has not. Furthermore, the texts in the OpenITI/KITAB corpus are encoded in its custom mARkdown schema. While this has its benefits for token- and phrase-level tagging, it is somewhat cumbersome, and many edge cases make cleaning the texts difficult. The metadata for the OpenITI/KITAB files is also not standardized, with varying field names, missing items, and so on, so I have standardized both the metadata and the texts in .json format.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="https://nyu.academia.edu/AntonioMusto/">academia.edu</a></li>
+        <li><a href="https://github.com/ammusto">github</a></li>
+        <li><a href="https://x.com/deepcutiqtibas">twitter</a></li>
+        <li><a href="https://orcid.org/0009-0001-9861-6801">orcid</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
